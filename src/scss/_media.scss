@@ -1,0 +1,243 @@
+@media( min-width:576px ) {
+  .header{
+    font-size: 18px;
+    &__logo {
+      img{
+        width: 100px;
+      }
+    }
+    &__button {
+      padding: 13px;
+    }
+  }
+  .promo {
+    padding: 49px 0 23px;
+    &__title {
+      margin-top: 0;
+      font-size: 26px;
+      span {
+        margin-bottom: 17px;
+      }
+    }
+  
+    &__subtitle {
+      display: inline-block;
+      font-size: 22px;
+      margin: 35px 0 40px;
+      line-height: 26px;
+      max-width: 550px;
+    }
+  }
+  .promo-actual {
+    &__positions {
+      font-size: 22px;
+    }
+  }
+  .actual-item {
+    &__name {
+      font-size: 22px;
+    }
+    &__status {
+      margin: 42px 0 30px;
+    }
+  }
+  .offers {
+    background-color: #6dcff6;
+    padding: 49px 0;
+    &__title {
+      font-size: 26px;
+      margin-bottom: 40px;
+    }
+  }
+  .offers-slider {
+    &__item {
+      margin-bottom: 54px;
+    }
+    .slick-prev{
+      left: 30%;
+    }
+    .slick-next{
+      right: 30%;
+    }
+  }
+  .footer {
+    padding: 26px 0;
+    font-size: 18px;
+  }
+}
+@media( min-width:768px ) {
+  .promo {
+    &__title {
+      font-size: 30px;
+    }
+  
+    &__subtitle {
+      font-size: 26px;
+      line-height: 30px;
+      max-width: 630px;
+    }
+  }
+  .promo-actual{
+    &__positions {
+      font-size: 26px;
+    }
+    &__items{
+      flex-direction: row;
+      justify-content: center;
+    }
+    &__item{
+      margin: 0 39px 20px;
+      &:nth-child(3){
+        margin-right: 0;
+      }
+      &:last-child{
+       margin: 0;
+      }
+    }
+  }
+  .offers-slider{
+    .slick-arrow{
+      bottom: -4px;
+    }
+    .slick-dots li{
+      margin: 0 18px;
+    }
+    .slick-dots button{
+      width: 40px;
+      height: 40px;
+    }
+  }
+}
+@media( min-width:992px ) {
+  .header{
+    font-size: 22px;
+    &__logo {
+      img{
+        width: 125px;
+      }
+    }
+    &__button {
+      padding: 19px 60px 18px 34px ;
+      font-size: 20px;
+    }
+  }
+  .promo {
+    &__title {
+      font-size: 32px;
+    }
+  
+    &__subtitle {
+      font-size: 28px;
+      line-height: 32px;
+      max-width: 680px;
+    }
+  }
+  .promo-actual{
+    &__positions {
+      font-size: 28px;
+    }
+    &__item{
+      margin: 0 8px 20px;
+      &:nth-child(3){
+        margin-right: 0;
+      }
+      &:last-child{
+       margin: 0;
+      }
+    }
+  }
+  .offers {
+    &__title {
+      font-size: 32px;
+    }
+  }
+}
+@media( min-width:1200px ) {
+  .header{
+    font-size: 32px;
+    &__logo {
+      img{
+        width: 141px;
+      }
+      span{
+        margin-left: 21px;
+      }
+    }
+    &__button {
+      display: inline-block;
+      margin-right: 34px;
+      font-size: 26px;
+      padding-right: 62px;
+    }
+  }
+  .promo {
+    &__title {
+      font-size: 45px;
+      margin-right: 28px;
+      margin-top: 5px;
+      span {
+        margin-bottom: 34px;
+        line-height: 24px;
+      }
+    }
+    &__subtitle {
+      font-size: 30px;
+      line-height: 34px;
+      max-width: 750px;
+      margin: 28px 79px 35px 40px;
+    }
+  }
+  .promo-actual{
+    padding-right: 15px;
+    &__positions {
+      font-size: 30px;
+      text-align: left;
+      margin-right: 35px;
+    }
+    &__item{
+      margin: 0 7px 20px;
+      &:first-child{
+        margin-left: -15px;
+      }
+      &:nth-child(3){
+        margin-right: 8px;
+      }
+      &:last-child{
+        padding: 0 3px 28px 8px;
+      }
+    }
+    
+  }
+  .offers {
+    padding: 57px 0 128px;
+    &__title {
+      padding-right: 34px;
+      font-size: 45px;
+      margin-bottom: 62px;
+    }
+  }
+  .offers-slider{
+    padding-right: 30px;
+    .slick-arrow{
+      bottom: -4px;
+    }
+    .slick-prev{
+      left: 34%;
+    }
+    .slick-next{
+      right: 36%;
+    }
+    .slick-dots li{
+      margin: 0 18px;
+    }
+    .slick-dots button{
+      width: 40px;
+      height: 40px;
+    }
+  }
+  .footer {
+    font-size: 22px;
+    padding-top: 32px;
+    padding-right: 30px;
+  }
+}
